@@ -1,0 +1,104 @@
+/* Styles principaux */
+.registration-form {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif; /* Remplace par la police de ton site */
+  }
+  
+  .registration-form .container {
+    text-align: center;
+  }
+  
+  /* En-tête du formulaire */
+  .registration-form .form-heading h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222; /* Ajuste avec le thème */
+    margin-bottom: 15px;
+  }
+  
+  .registration-form .form-heading p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Champs du formulaire */
+  .registration-form .form-group {
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  
+  .registration-form .form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .registration-form .form-group input,
+  .registration-form .form-group select {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #555;
+    outline: none;
+    background: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .registration-form .form-group input:focus,
+  .registration-form .form-group select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Bouton d'inscription */
+  .registration-form .btn-submit {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
+  }
+  
+  .registration-form .btn-submit:hover {
+    background: linear-gradient(135deg, #0056b3, #003d82);
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .registration-form {
+      padding: 30px 15px;
+    }
+  
+    .registration-form .form-heading h2 {
+      font-size: 2rem;
+    }
+  
+    .registration-form .form-heading p {
+      font-size: 1rem;
+    }
+  
+    .registration-form .btn-submit {
+      font-size: 1rem;
+    }
+  }
+  
